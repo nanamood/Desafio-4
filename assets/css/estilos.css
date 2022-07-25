@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Robo-Light';
+    src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Robo-Medium';
+    src: url(/assets/fonts/Roboto-Medium.ttf);
+}
+*{
+    font-family: Robo-Light;/*Por defecto que la página tenga tipo de letra Roboto Light (300)*/
+}
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*CARD*/
+/*Ancho de cada Card*/
+.tarjeta{
+    width: 340px;
+}
+
+/*Formato del Título de Cada Card*/
+.titulo{
+    color: #212529;
+    font-size: 20px;
+}
+
+/*Formato del Subtítulo de Cada Card*/
+.subtitulo{
+    color:#707070;
+    font-size: 16px;
+}
+
+.direccion{
+    color:#707070;
+    font-size: 13px;
+}
+
+/*Precio pequeño*/
+.fuente-uno {
+    font-size: 16px;
+    color:#707070;
+}
+
+/*Precio de
+/*Precio de color verde*/
+.fuente-dos {
+    font-size: 20px;
+    font-family: Robo-Medium;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*FORMULARIO*/
+/* Color del título del FORM */
+.mensaje{
+    font-family: Robo-Medium;
+    font-size: 21px;
+}
+
+/*Color del Texto Interno NOMBRE en el input*/
+#inputEmail::placeholder{
+    color: #707070;
+    font-size: 16px;
+}
+/*Color del Texto Interno CORREO ELECTRÓNICO en el input*/
+#inputNombre::placeholder{
+    color: #707070;
+    font-size: 16px;
+}
+
+/* Tamaño y color del botón de envío */
+.boton{
+    font-size: 16px;
+    font-family: Robo-Medium;
+}
